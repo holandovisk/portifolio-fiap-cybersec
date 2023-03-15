@@ -3,6 +3,10 @@
   
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Poppins:wght@900&display=swap');
 
+
+  @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Poppins:wght@700;900&display=swap');
 *{
     margin: 0;
@@ -15,6 +19,10 @@
     font-size: 62.5%
 }
 header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
     height: 100vh;
     background-image: url('../css/Images/rogerio.jpg');
     background-size: cover;
@@ -36,8 +44,7 @@ span{
 padding: 1.2rem 8.5rem;
 border: 0.3rem solid #6DFF39;
 border-radius: 0.5rem;
-width: 15rem;
-height: 2.8rem;
+
 
 font-family: 'Courier Prime';
 font-weight: 700;
@@ -45,4 +52,22 @@ font-size: 2.5rem;
 line-height: 2.8rem;
 color: #6DFF39;
 
+}
+section{
+    display: flex;
+    padding 8.6rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: url('../css/Images/R.jpg');
+    background-size: cover;
+    
+}
+p{
+    
+    font-family: 'Courier Prime';
+    font-size: 1.5rem;
+    color: #6dff39
 }
