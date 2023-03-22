@@ -54,17 +54,30 @@ color: #6DFF39;
 
 }
 section{
-    display: flex;
-    padding 8.6rem;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 2rem;
-    height: 100vh;
-    box-sizing: border-box;
-    background-image: url('../css/Images/R.jpg');
-    background-size: cover;
+
+        display: flex;
+        gap: 2rem;
+        padding: 8.6rem;
+        background-color: black;
+    }
     
-}
+    .avatar {
+        border-radius: 50%;
+       
+    }
+    
+    #texto-apresentacao{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+        font-family: 'Courier Prime';
+        font-size: 1.5rem;
+        color: #6dff39
+
+    }
+    
+
 p{
     
     font-family: 'Courier Prime';
