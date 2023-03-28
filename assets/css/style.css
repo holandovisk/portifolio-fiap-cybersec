@@ -96,3 +96,45 @@ p{
     font-size: 1.5rem;
     color: #6dff39
 }
+
+#secao-projetos{
+    background-color: #212121;
+    color: var(--color-default);
+
+}
+
+#secao-projetos ul{
+    display: flex;
+    gap: 3rem;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.card{
+    position: relative;
+    cursor: pointer;
+}
+
+.card:hover .card-image{
+    opacity: .2;
+
+}
+
+.card:hover .card-info{
+    opacity: 1;
+    bottom: 20%;
+
+}
+
+.card-image img{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+}
+.card-info{
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity .5s ease-in-out, bottom .5s;
+
+}
