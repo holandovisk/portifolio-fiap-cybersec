@@ -43,6 +43,17 @@ html{
     box-shadow: 2px 2px 2px #000;
 
 }
+nav ul li{list-style-type: none;}
+nav ul li{background-color: #212121;}
+nav ul li:hover{background-color: #111111;}
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    font-family: 'Courier Prime';
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.8rem;
+    color: #6DFF39;}
 .menu{
     height: 100vh;
     width: 20rem;
@@ -124,7 +135,11 @@ section{
 
     }
     
-
+#secao-apresentacao{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
 p{
     
     font-family: 'Courier Prime';
@@ -173,6 +188,14 @@ p{
     transition: opacity .5s ease-in-out, bottom .5s;
 
 }
+
+section ul li h2{
+    font-size: clamp(3rem, 4.5rem );
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Poppins';
+}
+
 
 #secao-orcamento{
     display: flex;
