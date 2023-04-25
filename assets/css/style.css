@@ -190,7 +190,7 @@ p{
 }
 
 section ul li h2{
-    font-size: clamp(3rem, 4.5rem );
+    font-size: clamp(3rem, 5vw, 4.2rem );
     font-weight: bold;
     color: #fff;
     font-family: 'Poppins';
